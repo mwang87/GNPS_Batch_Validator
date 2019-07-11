@@ -16,7 +16,7 @@ def perform_validation(filename):
             NotEmptyValidator()
         ],
         'SEQ': [
-            SetValidator(valid_set=["*..*"])
+            SetValidator(valid_set=["*..*", "*.*"])
         ],
         'COMPOUND_NAME': [
             NotEmptyValidator()
